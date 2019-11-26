@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 div {
@@ -16,11 +16,32 @@ div {
 
 #description {
   height: 20vh;
-  background: #00909e;
+  background: #505bda;
+}
+
+#title {
+  border-bottom: 0.3vh solid #505050;
+  margin-bottom: 1vh;
 }
 
 #content {
-  background-color: #465881;
+  background-color: #1a2849;
   height: 80vh;
   overflow: auto;
+}
+
+#back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3vh;
+  width: 5vh;
+  border: none;
+  background: #2f416d;
+  color: #94ceca;
+  cursor: pointer;
+}
+
+#back:hover {
+  text-decoration: underline;
 }

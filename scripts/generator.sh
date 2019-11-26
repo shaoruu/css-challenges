@@ -1,3 +1,5 @@
+cd ..
+
 cp -r pages/template pages/$1
 
 cd pages/$1

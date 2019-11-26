@@ -64,7 +64,7 @@ div {
   justify-content: space-between;
   background: #aa403c;
   border-radius: 0.3vh;
-  filter: blur(0.75px);
+  filter: blur(0.8px);
 }
 
 #album-top {

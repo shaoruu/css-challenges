@@ -51,6 +51,15 @@
   align-items: center;
 }
 
+#page-list li::before {
+  content: '';
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  background: #f4efd3;
+  margin-right: 1vh;
+}
+
 #page-list li:hover {
   border-bottom: 0.2vh solid #f6da63;
 }

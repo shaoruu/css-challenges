@@ -1,3 +1,3 @@
 # css challenges
 
-use css to implement everything
+use webdev to implement everything
